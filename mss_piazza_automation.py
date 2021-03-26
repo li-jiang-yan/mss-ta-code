@@ -8,7 +8,7 @@ my_piazza_password = "" # Please put your password (that you use to login to Pia
 p = Piazza()
 p.user_login(email = my_piazza_email, password = my_piazza_password)
 mss = p.network("kizrj7sr77d2w6") # Enter Piazza network here (can be seen from Piazza URL)
-folder_list = ['hw1', 'hw2', 'hw3', 'hw4', 'hw5', 'hw6', 'hw7', 'hw8', 'hw9', 'hw10', 'project', 'exam', 'logistics', 'other', 'week1', 'week2', 'week3', 'week4', 'week5', 'week6', 'week7', 'week8', 'week9', 'week10', 'week11', 'week12', 'week13', 'math_modelling', 'cerebry' ]
+folder_list = ['hw1', 'hw2', 'hw3', 'hw4', 'hw5', 'hw6', 'hw7', 'hw8', 'hw9', 'hw10', 'project', 'exam', 'logistics', 'other', 'week1', 'week2', 'week3', 'week4', 'week5', 'week6', 'week7', 'week8', 'week9', 'week10', 'week11', 'week12', 'week13', 'math_modelling', 'cerebry', 'ps1', 'ps2', 'ps3', 'ps4', 'ps5', 'ps6', 'polls']
 post_index_list = []
 post_dic = {}
 for foldername in folder_list:
